@@ -27,7 +27,7 @@ public class BaseballGame {
         if (!isNumeric(computerNum)) throw new IllegalArgumentException();
     }
 
-    public String calculate(String input) {
+    public String play(String input) {
         if (!isNumeric(input)) throw new IllegalArgumentException();
         int strikeCnt = 0;
         int ballCnt = 0;
